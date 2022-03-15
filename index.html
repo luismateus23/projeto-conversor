@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Conversor Online</title>
+</head>
+<body>
+    <!--cabeçalho da página-->
+    <header>
+        <p id="info">
+            Valores atualizados dia 15/03/2022<br>
+            Dólar: 5,16 Real brasileiro<br>
+            Euro: 5,66 Real brasileiro<br>
+            Bitcoin (BTC): 203.923,41 BRL<br>
+            Ethereum (ETH):13.548,23 BRL<br>
+        </p>
+
+    
+
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="alura-logo">
+    </header>
+
+    <!--conteúdo da página-->
+    <div id="contanier">
+        <h1 id="titulo">Conversor Online</h1>
+        <label>Valor em Real R$</label>
+        <input type="number" name="number1" id="number1">
+
+        <select name="selec" id="selec">
+            <option value="Dolar">Dolar</option>
+            <option value="Euro">Euro</option>
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Ethereum">Ethereum</option>
+        </select>
+
+        <input  id="botao" type="button" value="Converter" onclick="converter()">
+
+    </div>
+    <div id="res"></div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

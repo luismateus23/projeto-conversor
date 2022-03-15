@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+body{
+    background: black;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    color: #F9E400;
+}
+#info{
+    font-size: 12px;
+    text-align:left
+}
+
+#contanier{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    background-color:#1C1C1C;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #4d4d4d83;
+
+    
+}
+label{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+input#number1{
+    margin-bottom: 20px;
+}
+select#selec{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+input#botao{
+    margin-top: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+input#botao:hover{
+    background: #FFEC19;
+    transition-duration: 0.3s;
+}
+div#res{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 5vw;
+    color: #F9E400;
+}
